@@ -6,8 +6,8 @@ export interface ReplaceRule {
   separator?: string;
 }
 
-const namePlaceholder = '{{name}}';
-const packagePlaceholder = '{{package}}';
+export const namePlaceholder = '{{name}}';
+export const packagePlaceholder = '{{package}}';
 
 const defaultReplaceRule: ReplaceRule = {
   before: `lib${path.sep}${namePlaceholder}\\.pm`,
