@@ -10,6 +10,7 @@ jobs:
           - 10
           - 12
           - 14
+    name: Node.js ${{ matrix.node-version }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
