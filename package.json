@@ -1,0 +1,9 @@
+{
+  "name": "@utgwkk/perl-filepath-to-package-name",
+  "version": "1.0.0",
+  "description": "Perl file path to package name converter",
+  "main": "index.js",
+  "repository": "https://github.com/utgwkk/perl-filepath-to-package-name",
+  "author": "utgwkk <utagawakiki@gmail.com>",
+  "license": "MIT"
+}
